@@ -1,15 +1,19 @@
 import React from "react";
-import  rs from './img/rs.jpg';
+
+// import resumeSvg from "../../assets/resume.svg";
+import rs from '../../image/rs.jpg'
+
 import styles from "./Header.module.css";
+
 function Header() {
   return (
     <div className={styles.container}>
       <div className={styles.left}>
         <p className={styles.heading}>
-          A <span>Resume</span> that stands out!
+          A <span>Resume Maker</span> that stands out!
         </p>
         <p className={styles.heading}>
-          Make your own resume. <span>Resume Maker</span>
+          Make your own resume. <span>It's your own</span>
         </p>
       </div>
       <div className={styles.right}>
