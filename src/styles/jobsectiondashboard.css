@@ -1,0 +1,232 @@
+.jobsection_dashboard {
+    width: 100%;
+    height: 120vh;
+    display: inline-block;
+    background-color: grey;
+}
+
+.dashboard_container {
+    width: 95%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* Placement */
+.placement {
+    width: 30%;
+    height: 30vh;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.placement_btn {
+    width: 100%;
+    height: 30vh;
+    font-size: 24px;
+    color: blue;
+    border: none;
+    border-style: none;
+    background-color: #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.plac_btn{
+    color: blue !important;
+    height: 20vh !important;
+    width: 100% !important;
+}
+.apt_btn a{
+    text-decoration: none;
+}
+
+/* YouTube */
+.youtube {
+    width: 30%;
+    height: 30vh;
+    background-color: white;
+    border-radius: 20px;
+}
+.youtube_btn{
+    color: red !important;
+    height: 20vh !important;
+    width: 100% !important;
+}
+.youtube_btn  {
+    width: 100%;
+    height: 30vh;
+    font-size: 24px;
+    color: blue;
+    border: none;
+    border-style: none;
+    background-color: #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Interview */
+.interview {
+    width: 30%;
+    height: 30vh;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.interview_btn {
+    width: 100%;
+    height: 30vh;
+    font-size: 24px;
+    color: blue;
+    border: none;
+    border-style: none;
+    background-color: #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.inter_btn{
+    width: 40% ;
+    height: 20vh ;
+    z-index: 0001;
+    border-radius: 50%;
+}
+/* Second Dashboard_container */
+.dashboard_containe {
+    width: 95%;
+    margin: 30px auto;
+    display: flex;
+}
+
+.spoken {
+    width: 30%;
+    height: 30vh;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.spoken_btn {
+    width: 100%;
+    height: 30vh;
+    font-size: 24px;
+    color: blue;
+    border: none;
+    border-style: none;
+    background-color: #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.spoken_btn{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.mooktest {
+    width: 30%;
+    height: 30vh;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.moke_btn {
+    width: 100%;
+    height: 30vh;
+    font-size: 24px;
+    color: blue;
+    border: none;
+    border-style: none;
+    background-color: #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.cource {
+    width: 30%;
+    height: 30vh;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.cource_btn {
+    width: 100%;
+    height: 30vh;
+    font-size: 24px;
+    color: blue;
+    border: none;
+    border-style: none;
+    background-color: #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.dashboard_container_three {
+    width: 95%;
+    margin: 30px auto;
+    display: flex;
+}
+
+.previous {
+    width: 30%;
+    height: 30vh;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.pre_icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100% !important;
+    height: 30vh !important;
+    border-radius: 10px !important;
+}
+
+.pre_btn {
+    width: 75%;
+    padding: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    margin-top: 5%;
+    border-style: none;
+    background-color: black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.aptitude {
+    width: 30%;
+    height: 30vh;
+    margin-left: 79px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.dsk_icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100% !important;
+    height: 30vh !important;
+    border-radius: 10px !important;
+}
+
+.aptt_btn {
+    height: 20vh !important;
+    width: 100% !important;
+}
+
+.apt_btn {
+    width: 75%;
+    padding: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    margin-top: 5%;
+    border-style: none;
+    background-color: black;
+    border-radius: 20px;
+    cursor: pointer;
+}
