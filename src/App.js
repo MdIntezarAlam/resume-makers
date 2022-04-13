@@ -8,6 +8,8 @@ import Jobsection_Dashboard from './component/JobSection/jobsection_dashboard';
 import Create_resume from './component/Create_resume';
 import Login from './Login_Siginup/Login/Login'
 import Siginup from './Login_Siginup/Siginup/Siginup'
+import '../src/App.css'
+
 
 const App = () => {
     return (

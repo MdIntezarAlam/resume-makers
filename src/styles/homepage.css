@@ -39,6 +39,18 @@
 
 }
 
+.resume_maker {
+    font-size: 60px;
+    margin-top: 40px;
+    color: rgb(0, 0, 0);
+    font-weight:bolder;
+    opacity: 1;
+    font-family: 'Lobster', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Parisienne', cursive;
+    font-family: 'Patua One', cursive;
+    font-family: 'Playfair Display', serif;
+}
 
 .getstarted_btn {
     width: 300px;
@@ -49,16 +61,4 @@
     color: #fff;
     background-color: blue;
     margin-top: 110px;
-}
-
-.resume_maker {
-    font-size: 60px;
-    margin-top: 40px;
-    color: blue;
-    opacity: 1;
-    font-family: 'Lobster', cursive;
-    font-family: 'Lora', serif;
-    font-family: 'Parisienne', cursive;
-    font-family: 'Patua One', cursive;
-    font-family: 'Playfair Display', serif;
 }

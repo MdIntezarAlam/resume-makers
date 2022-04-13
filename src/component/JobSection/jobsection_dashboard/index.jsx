@@ -13,7 +13,7 @@ const Jobsection_Dashboard = () => {
                 <div className="dashboard_container">
                     <div className="placement">
                         <div className="pre_icon"><WorkIcon className='aptt_btn' />
-                        <button className='pre_btn'>Placements</button>
+                            <button className='pre_btn'>Placements</button>
                         </div>
                     </div>
                     <div className="previous">
@@ -56,7 +56,6 @@ const Jobsection_Dashboard = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
         </>
     )

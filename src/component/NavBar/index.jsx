@@ -4,7 +4,7 @@ import { Container, Navbar, Nav } from 'react-bootstrap'
 
 const NavBar = () => {
     return (
-        <Navbar expand="md " bg="dark" variant="dark" >
+        <Navbar expand="md "  className='navbar navbar-dark bg-dark'>
             <Container fluid>
                 <Navbar.Brand>Resume Maker</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
