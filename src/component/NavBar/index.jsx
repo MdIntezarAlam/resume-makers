@@ -1,25 +1,41 @@
 import React from 'react'
-import { Container, Navbar, Nav } from 'react-bootstrap'
-// <div className="d-flex justify-content-end flex-grow-1"></div>
-
 const NavBar = () => {
     return (
-        <Navbar expand="md "  className='navbar navbar-dark bg-dark'>
-            <Container fluid>
-                <Navbar.Brand>Resume Maker</Navbar.Brand>
-                <Navbar.Toggle aria-controls="navbarScroll" />
-                <Navbar.Collapse id="navbarScroll">
-                    <Nav className="me-auto my-2 my-lg-0 w-100"  navbarScroll >
-                        <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="/signup">Make Resume</Nav.Link>
-                        <Nav.Link href="/jobsection_dashboard">Job Section</Nav.Link>
-                        <Nav.Link href="about">About</Nav.Link>
-                        <Nav.Link href="/signup" >Signup</Nav.Link>
-                        <Nav.Link href="/login">Login</Nav.Link>
-                    </Nav>
-                </Navbar.Collapse>
-            </Container>
-        </Navbar>
+        <div>
+            <nav className="navbar navbar-expand-sm   navbar navbar-dark bg-dark">
+                <div className="container-fluid ">
+                    <a className="navbar-brand " href="/">RESUME MAKER</a>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <div className="collapse navbar-collapse justify-content-end text-center" id="navbarSupportedContent">
+                        <ul className="navbar-nav active m-1">
+                            <li className="nav-item ">
+                                <a className="nav-link active m-1" aria-current="page" href="/home">Home</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link active m-1" href="/signup">Make Resume</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link active m-1" href="/jobsection_dashboard">Jobsection</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link active m-1" href="/signup">Signup</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link active m-1" href="/login">Login</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link active m-1" href="/about">About</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link active m-1" href="https://www.upgrad-bootcamps.com/full-stack-development-bootcamp?utm_source=GOOGLE&utm_medium=NBSEARCH&utm_campaign=IND_ACQ_WEB_GOOGLE_NBSEARCH_BU_UPG_BCFS_HIT_ROI_NW&utm_content=Bootcamp_Engineering_PM&utm_term=software%20development%20program&gclid=EAIaIQobChMIqPTg6fq-9wIVjAkrCh3qjABmEAAYASAAEgLHKfD_BwE">Visit</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
     )
 }
 export default NavBar

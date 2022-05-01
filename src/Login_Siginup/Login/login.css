@@ -1,6 +1,6 @@
 .login_container {
-    height: 100%;
-    min-height: 100vh;
+    min-height: 100%;
+    min-height: 91vh;
     width: 100%;
     background: linear-gradient(to right, #9900ff, #cc80ff);
     display: flex;
@@ -8,9 +8,10 @@
     align-items: center;
 }
 
-.login_heading{
+.login_heading {
     text-align: center;
 }
+
 .login_innerBox {
     min-width: 400px;
     height: fit-content;

@@ -1,7 +1,6 @@
 .siginup_container {
-    height: 100%;
-    min-height: 100vh;
-    width: 100%;
+    min-height: 100%;
+    min-height: 91vh;
     background: linear-gradient(to right, #9900ff, #cc80ff);
     display: flex;
     justify-content: center;
